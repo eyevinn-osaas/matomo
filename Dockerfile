@@ -1,4 +1,4 @@
-FROM matomo:5.2.2
+FROM matomo:5.14.0
 
 COPY ./osc-entrypoint.sh /osc-entrypoint.sh
 RUN chmod +x /osc-entrypoint.sh
